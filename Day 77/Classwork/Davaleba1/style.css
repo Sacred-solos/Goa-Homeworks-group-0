@@ -1,0 +1,29 @@
+#parent{
+    border: solid black 4px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #child1{
+    border: solid black 5px;
+    width: 400px;
+    height: 400px;
+  }
+  #child2{
+    border: solid black 6px;
+    width: 300px;
+    height: 300px;
+  }
+  #child3{
+    border: solid black 7px;
+    width: 200px;
+    height: 200px;
+  }
+  #child4{
+    border: solid black 8px;
+    width: 100px;
+    height: 100px;
+  }
