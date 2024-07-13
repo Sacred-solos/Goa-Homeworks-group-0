@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Application</h1>
+        <div class="form-section">
+            <h2>Create Account</h2>
+            <form id="createAccountForm">
+                <input type="text" id="accountOwner" placeholder="Owner Name" required>
+                <input type="number" id="initialBalance" placeholder="Initial Balance" required>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+        <div class="form-section">
+            <h2>Transfer Money</h2>
+            <form id="transferForm">
+                <input type="number" id="fromAcc" placeholder="From Account(Use ID instead of username)" required>
+                <input type="number" id="toAcc" placeholder="To Account(Use ID instead of username)" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <button type="submit">Transfer</button>
+            </form>
+        </div>
+        <div class="accounts-section">
+            <h2>Accounts</h2>
+            <ul id="accountsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
